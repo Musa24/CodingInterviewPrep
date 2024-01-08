@@ -1,12 +1,6 @@
 # CodingInterviewPrep
 
-   1. **Function constructor:**
-
-      In this approach, create any function and apply the new operator to create object instances.
-
-      ```javascript
-      function Person(name) {
-        this.name = name;
-        this.age = 21;
-      }
-      var object = new Person("Sudheer");
+   1. **Detecting a Cycle in a Singly Linked List:**
+  
+      Given a singly linked list, write a function which takes in the first node in a singly linked list and returns a boolean indicating if the linked list contains a "cycle".
+      A cycle is when a node's next point actually points back to a previous node in the list. This is also sometimes known as a circularly linked list.
